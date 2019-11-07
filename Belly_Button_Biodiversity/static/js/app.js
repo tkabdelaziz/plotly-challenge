@@ -23,9 +23,9 @@ function buildMetadata(sample) {
     
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
-    // d3.json(url).then(function(sampledata) {
-    //   console.log(sampledata.WFREQ);
-    //   level = sampledata.WFREQ
+    d3.json(url).then(function(sampledata) {
+        console.log(sampledata.WFREQ);
+        level = sampledata.WFREQ
 }
 
 function buildCharts(sample) {
