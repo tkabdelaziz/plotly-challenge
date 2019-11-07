@@ -1,1 +1,1 @@
-web: gunicorn tka-belly-button-biodiversity.wsgi
+web: gunicorn Belly_Button_Biodiversity.app:app
