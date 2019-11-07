@@ -1,2 +1,2 @@
-web: gunicorn ./Belly_Button_Biodiversity.app:app
+web: python app.py
 pip install --upgrade setuptools
